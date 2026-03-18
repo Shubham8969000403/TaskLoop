@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
-import useTasks from '../../hooks/useTasks.js'
+// import useTasks from '../../hooks/useTasks.js'
+import useTasks from '../hooks/useTasks.js' 
 import TaskCard from '../../components/TaskCard.js'
 
 const FilteredTasks = ({ filterType }) => {
